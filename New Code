@@ -1,20 +1,20 @@
-class shape{
-	int length, breadth;
+class SARA{
+	int lengtTTh, breadtTTTh;
 	
-	shape()
+	SARA()
 	{ length= 19;
 	  breadth= 50;
 	  
 	}
-	shape(int L,int B)
+	SARA(int L,int B)
 	{
-	length= L;
-	breadth= B;
+	lengtTTh= L;
+	breadtTTTh= B;
 	
 	}
 	void check()
   {
-	if (length== breadth){
+	if (lengtTTh== breadtTTTh){
 		System.out.println("It is square");
 		}
 		
